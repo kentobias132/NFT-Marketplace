@@ -70,7 +70,7 @@ const ActionCard = () => {
   return (
     <div className="relative rounded-tl-none flex flex-col  rounded-2xl p-6 bg-gradient-to-bl from-[#242533] to-[#0B0C14] w-full">
       <Image
-        src="/pleat.png"
+        src="/Pleat.png"
         alt="Decorative"
         width={150}
         height={150}

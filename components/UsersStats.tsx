@@ -19,7 +19,7 @@ const UserStatscard = () => {
     <div className=" container mx-auto px-6 py-16 my-20 ">
       <div className=" relative rounded-tl-none  rounded-2xl pl-8 pr-0 bg-gradient-to-bl from-[#242533] to-[#0B0C14] w-full">
         <Image
-          src="/pleat4.png"
+          src="/Pleat4.png"
           alt="pleat"
           width={250}
           height={250}
