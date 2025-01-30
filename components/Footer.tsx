@@ -10,12 +10,16 @@ const Footer: React.FC = () => {
   return (
     <footer className="text-white mt-10 py-12 px-6 md:px-16">
       <div className="border font-sora border-gray-600 rounded-3xl container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
-        {/* Logo & Support Links */}
-
         <div className="flex justify-between flex-col p-8">
           <div className="flex items-center space-x-2">
-            <Image src={"/Sygnet.png"} alt="NFT logo" width={30} height={30} />
-
+            <Link href={"/"}>
+              <Image
+                src={"/Sygnet.png"}
+                alt="NFT logo"
+                width={30}
+                height={30}
+              />
+            </Link>
             <h2 className="text-xl font-semibold">NFT Market</h2>
           </div>
           <div className="mt-4 flex space-x-6 text-gray-400 text-sm">
