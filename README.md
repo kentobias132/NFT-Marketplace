@@ -1,36 +1,77 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Tobamsgroup FE Internship Technical Assessment
+
+This project is a technical assessment for a frontend internship at Tobamsgroup. It involves building a fully functional web page based on a provided Figma design, using TypeScript, React, and preferably Next.js.
+
+## Project Overview
+
+This project aims to demonstrate proficiency in:
+
+- TypeScript
+- React (and preferably Next.js)
+- Implementing a given design
+- Building responsive web pages
+- Writing clean and maintainable code
+- Optimizing for performance
+- Version control using Git
+- Testing critical parts of the code
+
+## Project Requirements
+
+1.  **Technology Stack:**
+
+    - TypeScript (required)
+    - React
+    - Next.js (preferred but not mandatory)
+
+2.  **Code Quality:**
+
+    - Clean, maintainable, and well-documented code is required.
+    - Industry best practices for code structure and organization should be followed.
+    - Git for version control with regular commits and clear messages.
+
+3.  **Performance:**
+    - The webpage should be optimized for fast loading times.
+    - Use of heavy libraries should be minimized.
+    - Images should be optimized.
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- [Node.js](https://nodejs.org/) (version 16 or higher recommended)
+- [npm](https://www.npmjs.com/) or [yarn](https://yarnpkg.com/)
+- Git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Setup Instructions
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/kentobias132/NFT-Marketplace.git]
+    cd [NFT-Marketplace]
+    ```
+2.  **Install dependencies:**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
 
-## Learn More
+3.  **Set environment variables:**
 
-To learn more about Next.js, take a look at the following resources:
+- If your project uses environment variables, create a `.env.local` file in the root of the project and add required variables there.
+- You can look at `.env.example` as an example.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+4.  **Start the development server:**
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+    ```bash
+    npm run dev
+    # or
+    yarn dev
+    ```
 
-## Deploy on Vercel
+    This will start the application on `http://localhost:3000`.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- The application is deployed on [Deployment Link Here](https://nft-marketplace-psi-sandy.vercel.app/).
