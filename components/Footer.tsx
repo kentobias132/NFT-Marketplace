@@ -8,7 +8,7 @@ import Image from "next/image";
 
 const Footer: React.FC = () => {
   return (
-    <footer className="text-white mt-10 py-12 px-6 md:px-16">
+    <footer className="text-white mt-10 pt-12 pb-5 px-6 md:px-16">
       <div className="border font-sora border-gray-600 rounded-3xl container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex justify-between flex-col p-8">
           <div className="flex items-center space-x-2">
@@ -92,6 +92,9 @@ const Footer: React.FC = () => {
             </Button>
           </div>
         </div>
+      </div>
+      <div className="text-center pt-4">
+        Code with 🧡 by kentobias, inspired by the team @ Tobams group.
       </div>
     </footer>
   );
