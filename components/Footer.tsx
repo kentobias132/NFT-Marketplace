@@ -94,7 +94,8 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="text-center pt-4">
-        Code with 🧡 by kentobias, inspired by the team @ Tobams group.
+        Crafted with 🧡 by Kentobias, inspired by the amazing team at Tobams
+        Group
       </div>
     </footer>
   );
